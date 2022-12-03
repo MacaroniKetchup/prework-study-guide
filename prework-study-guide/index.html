@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -96,7 +97,83 @@
         <h2>CSS</h2>
         <ul>
 
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+
+          <li>CSS: Cascading Style Sheet is a programing language used by devs to define how web page content is presented to users. CSS defines, colors,
+              aesthetics, visual layout, and orginization.</li>
+
+          <li>There are three wats to style a webpage using CSS: inline CSS, internal CSS, and external CSS style sheet.</li>
+
+          <li>An example of Inline CSS is using a style attribute to change the color of a single "h1" heading</li>
+
+          <li>It is also possible to embed an entire stylesheet directly in the HTML file using a "style" element in the "head" element. This internal style sheet
+              contains CSS rules for the webpage in the head section of the HTML file. The rules only apply to that page, and you can configure CSS classes and IDs,
+              which are used to identify elements, to style multiple elements in the page code. Again, a single change to the CSS rule will apply to all tagged page
+              elements.</li>
+
+          <li>Inline CSS and internal style sheets are totally acceptable methods under certaint condistions, but the most common way to style a webpage is by
+              using an external CSS style sheet. This is prefered in most cases because it allows devs to keep all their CSS rules in a seperate file, which
+              makes design changes easier.</li>
+
+          <li>When using an external style sheet, we link the file using a "link" element placed in the HTML's "head".</li>
+
+          <li>Selector: Defines the element or attributes to which the rules, or declorations, will apply</li>
+
+          <li>Declorations containt two importaint components: the CSS property we want to apply and the value of the property. For example, the decloration color:
+              blue; includes the CSS property color and the value for the property, blue.</li>
+
+          <li>The Margin Property: acts much like a margin in a word processing document. A margin property indicates how much spacewe want around the outside of an
+              element. The margin is not visible on the page; it adds a buffer. When we set the margin property to 0, we are indication that we want NO extra space
+              around the element.</li>
+
+          <li>The Padding Property: is often confused with margin, but is not the same thing. The padding property adds space around the content inside an element.
+              When you increase padding, youare actually making the entire element bigger! Thats is because the padding, while transparent, is located inside the 
+              element, wheras the margin is the transparent buffer outside an element.</li>
+
+          <li>To understand this better, it is important to know that every HTML element is essentially a box. Each box consists of margins outside the element, and
+              the element's boarders, padding, and content. This is sometimes refered to as the CSS Box Model.</li>
+
+          <li>"*" acts a wild card symbol to apply a rule to all elements visible on the page.</li>
+
+          <li>You can combine two selectors into a single CSS rule by using a "," allowing the declorations to affect both selectors. Rather than repeating a rule
+              which would add more lines of code and repition, two or more elements that will share the same styling can be grouped together. This helps us write
+              Do Not Repeat Yourself (DRY) code.</li>
+
+          <li>DRY is a coding principle that encourages devs to reuse or share pieces of code in order to reduce the number of lines of that need to be written or
+              maintained. DRY can greatly reduce the overall size and complexity of a codebase.</li>
+
+          <li>"text-align: center;" is one way to center a title or heading on a webpage.</li>
+
+          <li>The "img" selector assigns property values to any image element in the markup. The display property is assigned with the block value, which assignes
+              each image to start on a new line.</li>
+
+          <li>You can alsoe use rules to format any lists or text on your page as well with padding, and "font-size" as well as "p" text.</li>
+
+          <li>To add your CSS code to your HTML code, open your .html file through the proper directory in the command line. Then where the "head" section is, which
+              is where we store our metadata. which contains information about the webpage. This is where we'll add a link to our style sheet.</li>
+
+          <li>You would add code such as "link rel="stylesheet" href="./assets/style.css" a "link" element creates a connection to the external CSS file.</li>
+
+          <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+
+          <li>The href attribute specifies the location (URL) of the external resource. the href attribute is using a reletive path. This means the location is derived
+              from the current location.</li>
+
+          <li>A "." period after a class is called a "class selector" and HTML element assigned to the class, will gain the property assignments from the CSS.</li>
+
+          <li>A border property assigns a border with a width and color</li>
+
+          <li>Width sets the width of an element.</li>
+
+          <li>A margin property assigns a margin to the top, bottom, left and right.</li>
+
+          <li>A box-shadow property adds shadow effects around an element's frame. You can set multiple effects seperated by commas. A box shadow is described by
+              x and y offsets relative to the element, blur and spread radius, and color.</li>
+
+          <li>Assigning colors in CSS can br done in many ways, incluiding by semantic references uch as gray or blue. WE can also refer to a color by its
+              hexadecimal code, or hex #.</li>
 
         </ul>
 
